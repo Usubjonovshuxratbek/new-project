@@ -1,0 +1,130 @@
+.footer {
+    padding: 100px 0;
+    background: #000000;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-inner .right h2 {
+    font-size: 40;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.footer-inner .right p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #8E8E8E;
+    margin-top: 20px;
+    width: 415px;
+}
+
+.socal-media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socal-media a {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    background: #EBD96B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.footer-inner .left .footer-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer-list .footer-item {
+    margin: 0 60px;
+}
+
+.footer-list .footer-item span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+
+.footer-list .footer-item a {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {                    
+    .footer-list .footer-item {
+        margin: 0 40px;
+    }
+
+    .footer-list .footer-item:nth-child(3) {
+        display: none;
+    }
+    
+    .footer-list .footer-item span {
+        font-size: 20px;
+    }
+    
+    .footer-list .footer-item a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 768px)  {
+    .footer {
+        padding: 80px 0;
+    }
+    
+    .footer-inner {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .footer-inner .right h2 {
+        text-align: center;
+    }
+    
+    .footer-inner .right p {
+        width: 100%;
+    }
+    
+    .socal-media {
+        justify-content: center;
+    }
+    
+    .footer-inner .left .footer-list {
+        display: none;
+    } 
+}
+
+@media (min-width: 0) and (max-width: 482px) {    
+    .footer-inner .right h2 {
+        font-size: 32px;
+    }
+    
+    .footer-inner .right p {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-inner .left .footer-list {
+        display: none;
+    } 
+}

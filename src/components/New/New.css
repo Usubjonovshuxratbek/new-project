@@ -1,0 +1,121 @@
+.new {
+    padding: 50px 0;
+}
+
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000000;
+    background-image: url(../../assets/img/img.png);
+    background-repeat: no-repeat;
+    background-position: calc(180px);
+    height: 58px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.card {
+    width: 28.2%;
+}
+
+.card .card-img img {
+    width: 100%;
+    height: 704px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card .card-info h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #191919;
+    line-height: 50px;
+}
+
+.card .card-info p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #7F7F7F;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+    .new {
+        padding: 50px 0;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .card:nth-child(3) {
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .section-title h2 {
+        font-size: 36px;
+        background-position: calc(130px);
+        height: 48px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        align-items: start;
+        margin-top: 0;
+    }
+
+    .card {
+        margin-top: 40px;
+        width: 48%;
+    }
+
+    .card:nth-child(3) {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 482px) {
+    .section-title h2 {
+        font-size: 32px;
+        background-position: calc(100px);
+        height: 43px;
+    }
+
+    .cards {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card .card-info h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .card .card-info p {
+        font-size: 20px;
+    }
+}

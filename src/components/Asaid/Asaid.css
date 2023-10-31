@@ -1,0 +1,26 @@
+.asaid {
+    background: #EBD96B;
+    margin-top: 50px;
+}
+
+.asaid .asaid-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 57px 0;
+}
+
+.asaid .asaid-inner img {
+    margin: 0 60px;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {    
+    .asaid .asaid-inner {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+    
+    .asaid .asaid-inner img {
+        margin: 20px 0;
+    }
+}
