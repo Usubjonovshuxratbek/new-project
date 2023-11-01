@@ -86,4 +86,8 @@
     .favourite .section-title h2 {
         background-position: calc(140px);
     }
+
+    .box .box-img img {
+        height: 400px;
+    } 
 }

@@ -88,6 +88,10 @@
         width: 48%;
     }
 
+    .card .card-img img {
+        height: 450px;
+    }
+
     .card:nth-child(3) {
         margin: 0 auto;
         margin-top: 40px;
@@ -108,6 +112,10 @@
 
     .card {
         width: 100%;
+    }
+
+    .card .card-img img {
+        height: 500px;
     }
 
     .card .card-info h3 {

@@ -126,9 +126,13 @@
     .banner-inner .right {
         width: 100%;
     }
+
+    .banner-inner .right img {
+        height: 700px;
+    }
     
     .banner-inner .left {
-        height: 808px;
+        height: 700px;
         width: 100%;
     }
     
@@ -169,8 +173,12 @@
 }
 
 @media (min-width: 0) and (max-width: 482px) {
+    .banner-inner .right img {
+        height: 500px;
+    }
+
     .banner-inner .left {
-        height: 650px;
+        height: 500px;
     }
     
     .banner-inner .left .left-inner {
@@ -182,8 +190,8 @@
     }
     
     .banner-inner .left .left-inner h3 {
-        font-size: 40.61px;
-        line-height: 90px;
+        font-size: 36.61px;
+        line-height: 70px;
     }
     
     .banner-inner .left .left-inner h3:nth-child(1) {

@@ -4,22 +4,24 @@ import CardOne from '../../assets/img/card-1.png'
 import CardTwo from '../../assets/img/card-2.png'
 import CardThree from '../../assets/img/card-3.png'
 import Icon from '../../assets/img/icon.png'
+import Fade from 'react-reveal/Fade';
 
 function New() {
     return (
-        <section className='new'>
+        <section id='cataloge' className='new'>
             <div className="container">
                 <div className="section-title">
                     <h2>NEW ARRIVALS</h2>
                 </div>
                 <div className="cards">
+                    <Fade bottom>
                     <div className="card">
                         <div className="card-img">
                             <img src={CardOne} alt="" />
                         </div>
                         <div className="card-info">
                             <div>
-                                <h3>Hoodies & Sweetshirt</h3>
+                                <h3>Hoodies</h3>
                                 <span>Explore Now!</span>
                             </div>
                             <div>
@@ -55,6 +57,7 @@ function New() {
                             </div>
                         </div>
                     </div>
+                    </Fade>
                 </div>
             </div>
         </section>

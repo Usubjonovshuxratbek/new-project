@@ -99,9 +99,11 @@
     
     .sign-inner .form-group input {
         font-size: 18px;
+        width: 60%;
     }
     
     .sign-inner .form-group button {
+        width: 40%;
         font-size: 22px;
     }
 }

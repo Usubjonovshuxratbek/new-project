@@ -8,7 +8,7 @@ import StarEight from '../../assets/img/star-8.png'
 
 function Banner() {
   return (
-    <section className='banner'>
+    <section id='fashion' className='banner'>
       <div className="banner-inner">
         <div className="right">
           <img src={BannerImg} alt="" />

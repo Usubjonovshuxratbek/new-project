@@ -3,7 +3,7 @@ import './Sign.css'
 
 function Sign() {
   return (
-    <section className='sign'>
+    <section id='sign' className='sign'>
         <div className="container">
             <div className="sign-inner">
                 <h2>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h2>

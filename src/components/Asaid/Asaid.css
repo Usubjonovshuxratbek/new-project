@@ -24,3 +24,14 @@
         margin: 20px 0;
     }
 }
+
+@media (min-width: 0) and (max-width: 768px) {    
+    .asaid .asaid-inner {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    
+    .asaid .asaid-inner img {
+        margin: 5px 0;
+    }
+}

@@ -1,6 +1,5 @@
 .nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 20px 0;
 }
@@ -22,7 +21,6 @@
     font-weight: 500;
     color: #242323;
     text-decoration: none;
-    display: none;
     margin: 0 20px;
 }
 
@@ -36,7 +34,6 @@
     padding: 15px 22px;
     background-color: #242323;
     border-radius: 7px;
-    display: none;
 }
 
 .menu-btn {
@@ -127,13 +124,29 @@
 }
 
 @media (min-width: 0) and (max-width: 1024px) {
+    .nav .logo a img {
+        width: 166px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .nav-list .nav-item .nav-link {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .nav-list .nav-item .nav-btn {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
     .hero-inner .right {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    
+
     .hero-inner .right span {
         font-size: 88.5px;
         font-weight: 900;
@@ -142,7 +155,7 @@
         display: block;
         width: 464px;
     }
-    
+
     .hero-inner .right p {
         display: flex;
         align-items: center;
@@ -155,22 +168,87 @@
     }
 }
 
+@media (min-width: 0) and (max-width: 991px) {
+    .nav .nav-list .nav-item .nav-link {
+        display: none;
+    }
+
+    .nav .nav-list .nav-item .nav-btn {
+        display: none;
+    }
+
+    .nav-listt {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: #000000;
+        width: 40%;
+        height: 100vh;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        padding: 20px 40px;
+    }
+
+    .nav-listt .nav-item .close-btn {
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .nav-listt .nav-item .close-btn i {
+        font-size: 40px;
+        font-weight: 500;
+        color: #FFFFFF;
+        display: block;
+    }
+
+    .nav-listt .nav-item .nav-link {
+        font-size: 22px;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: block;
+        margin: 20px 0;
+    }
+
+    .nav-listt .nav-item .nav-btn {
+        font-size: 22px;
+        font-weight: 500;
+        color: #242323;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 22px;
+        background-color: #FFFFFF;
+        border-radius: 7px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
 @media (min-width: 0) and (max-width: 768px) {
     .hero {
-        height: 750px;
+        height: 630px;
         border-radius: 49px;
+        margin-top: -10px;
     }
-    
+
     .hero-inner {
-        padding: 40px 50px 0 50px;
+        padding: 60px 50px 0 50px;
     }
-    
+
     .hero-inner .right span {
-        font-size: 68.5px;
-        line-height: 100px;
+        font-size: 58.5px;
+        line-height: 90px;
         width: 100%;
     }
-    
+
+    .hero-inner .right p {
+        margin-top: 10px;
+    }
+
     .hero-inner .right .right-inner {
         margin-top: 20px;
     }
@@ -178,33 +256,57 @@
     .hero-inner .right .right-inner img {
         display: none;
     }
+
+    .hero-inner .right span:nth-child(2) {
+        text-align: start;
+        padding-left: 20px;
+    }
+
+    .hero-inner .right span:nth-child(4) {
+        padding-left: 20px;
+    }
 }
 
 @media (min-width: 0) and (max-width: 482px) {
+    .nav-listt {
+        width: 50%;
+        padding: 20px 30px;
+    }
+
+    .nav-listt .nav-item .nav-link {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    .nav-listt .nav-item .nav-btn {
+        font-size: 18px;
+    }
+
     .hero {
-        height: 600px;
+        height: 500px;
         border-radius: 34px;
+        margin-top: -10px;
     }
-    
+
     .hero-inner {
-        padding: 60px 20px 0 20px;
+        padding: 50px 20px 0 20px;
     }
-    
+
     .hero-inner .right span {
-        font-size: 48.5px;
-        line-height: 80px;
+        font-size: 32.5px;
+        line-height: 60px;
         width: 100%;
     }
-    
+
     .hero-inner .right span:nth-child(1) {
         padding: 0 20px;
     }
-    
+
     .hero-inner .right span:nth-child(2) {
         text-align: start;
         padding: 0 20px;
     }
-    
+
     .hero-inner .right span:nth-child(3) {
         padding: 0 20px;
     }
@@ -212,12 +314,12 @@
     .hero-inner .right span:nth-child(4) {
         padding: 0 20px;
     }
-    
+
     .hero-inner .right p {
         font-size: 24px;
         line-height: 28px;
     }
-    
+
     .hero-inner .right .right-inner button {
         font-size: 20px;
         margin-left: 0;

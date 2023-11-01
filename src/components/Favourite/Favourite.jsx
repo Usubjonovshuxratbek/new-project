@@ -3,15 +3,17 @@ import './Favourite.css'
 import FavouriteOne from '../../assets/img/favourite-1.png'
 import FavouriteTwo from '../../assets/img/favourite-2.png'
 import Icon from '../../assets/img/icon.png'
+import Fade from 'react-reveal/Fade';
 
 function Favourite() {
     return (
-        <section className='favourite'>
+        <section id='favourite' className='favourite'>
             <div className="container">
                 <div className="section-title">
                     <h2>Young’s Favourite</h2>
                 </div>
                 <div className="boxs">
+                    <Fade bottom>
                     <div className="box">
                         <div className="box-img">
                             <img src={FavouriteOne} alt="" />
@@ -40,6 +42,7 @@ function Favourite() {
                             </div>
                         </div>
                     </div>
+                    </Fade>
                 </div>
             </div>
         </section>
