@@ -4,7 +4,6 @@ import CardOne from '../../assets/img/card-1.png'
 import CardTwo from '../../assets/img/card-2.png'
 import CardThree from '../../assets/img/card-3.png'
 import Icon from '../../assets/img/icon.png'
-import Fade from 'react-reveal/Fade';
 
 function New() {
     return (
@@ -14,7 +13,6 @@ function New() {
                     <h2>NEW ARRIVALS</h2>
                 </div>
                 <div className="cards">
-                    <Fade bottom>
                     <div className="card">
                         <div className="card-img">
                             <img src={CardOne} alt="" />
@@ -57,7 +55,6 @@ function New() {
                             </div>
                         </div>
                     </div>
-                    </Fade>
                 </div>
             </div>
         </section>
