@@ -1,0 +1,89 @@
+.hero {
+    padding: 40px 0;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+}
+
+.hero-title span {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #3F48CC;
+}
+
+.hero-title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 60px;
+    color: #ABB0FF;
+}
+
+.colections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.colection {
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    background: #FFF9ED;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.colection span {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #3F48CC;
+}
+
+.colection:nth-child(2) {
+    background: #FAEDFF;
+}
+
+.colection:nth-child(3) {
+    background: #EDFDFF;
+}
+
+.colection:nth-child(4) {
+    background: #FFF2ED;
+}
+
+.colection:nth-child(5) {
+    background: #EDFFF1;
+}
+
+.colection:nth-child(6) {
+    background: #FFEDFE;
+}
+
+.colection:nth-child(7) {
+    background: #F5FFED;
+}
+
+.colection:nth-child(7) span {
+    margin-top: 80px;
+}
+
+.colection:nth-child(8) {
+    background: #EDF3FF;
+}
+
+.colection:nth-child(8) span {
+    margin-top: 80px;
+}

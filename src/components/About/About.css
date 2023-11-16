@@ -1,103 +1,52 @@
-.about-inner {
+.asaid {
+    padding: 40px 0;
+}
+
+.asaid span {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #3F48CC;
+}
+
+.asaid-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    margin: 40px 0;
 }
 
-.about-inner .info span {
-    font-size: 48px;
-    font-weight: 900;
-    color: #000000;
-    display: block;
-    width: 55%;
-    line-height: 72px;
+.asaid-inner .box {
+    width: 300px;
+    height: 137px;
+    border-radius: 10px;
+    background: #EDEEFF;
 }
 
-.about-inner .info p {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 35px;
-    color: #7C7C7C;
-    margin-top: 20px;
-    width: 50%;
-}
-
-.download-btns {
+.asaid-inner .box .box-inner {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    justify-content: center;
+    margin: 41px 0;
 }
 
-.download-btns a:nth-child(2) {
+.box .box-inner .info {
     margin-left: 20px;
 }
 
-@media (min-width: 0) and (max-width: 1024px) {
-    .about {
-        margin: 0;
-    }
-    
-    .about-inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .about-inner .info {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    .about-inner .info span {
-        width: 80%;
-        text-align: center;
-    }
-    
-    .about-inner .info p {
-        text-align: center;
-        width: 80%;
-    }
-    
-    .about-inner .app {
-        display: none;
-    }   
+.box .box-inner h3 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #3F48CC;
 }
 
-@media (min-width: 0) and (max-width: 482px) {    
-    .about-inner {
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    .about-inner .info {
-        width: 100%;
-    }
-    
-    .about-inner .info span {
-        font-size: 32px;
-        width: 100%;
-        line-height: 52px;
-    }
-    
-    .about-inner .info p {
-        font-size: 20px;
-        line-height: 30px;
-        margin-top: 20px;
-        width: 100%;
-    }
-
-    .download-btns {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .download-btns a img {
-        width: 150px;
-    }
+.box .box-inner span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #3F48CC;
+    display: block;
+    width: 115px;
+    margin-top: 5px;
 }

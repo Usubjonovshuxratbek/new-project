@@ -1,0 +1,83 @@
+.nav {
+    padding: 20px 0;
+    border-bottom: 3px solid #3F48CC;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-inner .right img {
+    width: 165px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav-inner .center {
+    display: flex;
+    align-items: center;
+    width: 636px;
+    height: 60px;
+    border: 3px solid #3F48CC;
+    border-radius: 6px;
+    padding: 0 20px;
+    background: #EDEEFF;
+    position: relative;
+}
+
+.nav-inner .center select {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3F48CC;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.nav-inner .center span {
+    height: 32px;
+    width: 3px;
+    background: #3F48CC;
+    margin-left: 10px;
+}
+
+.nav-inner .center input {
+    margin-left: 30px;
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #B0B5FF;
+    outline: none;
+}
+
+.nav-inner .center button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.nav-inner .center button img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.nav-inner .left {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-inner .left span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #3F48CC;
+    display: block;
+    margin-left: 10px;
+}
